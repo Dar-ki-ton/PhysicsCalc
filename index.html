@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Physics Calculator</title>
+  </head>
+
+  <body>
+    <h1>Kinetic Energy</h1>
+
+    <img src="img/kinetic.jpg" alt="Placeholder Image" />
+
+    <p>
+      KE = Kinetic Energy (J)
+      <br />
+      m = mass (kg)
+      <br />
+      v = velocity (m/s)
+    </p>
+
+    <p>Enter the mass: <input id="kine-mass-in" type="text" /></p>
+    <p>Enter the velocity: <input id="velo-in" type="text" /></p>
+
+    <button id="kine-calc">Calculate</button>
+
+    <p>The amount of Kinetic Energy is <span id="kine-out">------</span>.</p>
+
+    <hr />
+
+    <h1>Potential Energy</h1>
+
+    <img src="img/potential.jpg" alt="Placeholder Image" />
+
+    <p>
+      PE = Potential Energy (J)
+      <br />
+      m = mass (kg)
+      <br />
+      g = gravity (9.8m/s²)
+      <br />
+      h = height (m)
+    </p>
+
+    <p>Enter the mass: <input id="pot-mass-in" type="text" /></p>
+    <p>Enter the height: <input id="height-in" type="text" /></p>
+
+    <button id="pot-calc">Calculate</button>
+
+    <p>The amount of Potential Energy is <span id="pot-out">------</span>.</p>
+
+    <hr />
+
+    <h1>Mechanical Energy</h1>
+
+    <img src="img/mechanical.jpg" alt="Placeholder Image" />
+
+    <p>
+      ME = Mechanical Energy (J)
+      <br />
+      PE = Potential Energy (J)
+      <br />
+      KE = Kinetic Energy (J)
+    </p>
+
+    <p>Enter the Potential Energy: <input id="pot-in" type="text" /></p>
+    <p>Enter the Kinetic Energy: <input id="kine-in" type="text" /></p>
+
+    <button id="mech-calc">Calculate</button>
+
+    <p>The amount of Mechanical Energy is <span id="mech-out">------</span>.</p>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>

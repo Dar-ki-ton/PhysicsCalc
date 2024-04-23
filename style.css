@@ -1,0 +1,62 @@
+html {
+  background: url(img/physics.jpg);
+}
+
+body {
+  width: 800px;
+  background: rgba(2, 0, 116, 0.8);
+  margin: 20px auto;
+  padding: 10px 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: blue;
+}
+
+hr {
+  border: 5px solid rgba(255, 72, 0, 0.6);
+}
+
+img {
+  width: 500px;
+  margin: 0px 150px;
+}
+
+p {
+  font-size: 20px;
+  color: orange;
+}
+
+input {
+  font-size: 15px;
+  padding: 3px 5px;
+
+  transition: background 1s;
+}
+
+input:hover {
+  background: darkgray;
+
+  transition: background 1s;
+}
+
+button {
+  font-size: 20px;
+  font-family: "Anta", sans-serif;
+  padding: 2px 15px;
+  background: #ad0300;
+  border: 3px solid #b42a00;
+  border-radius: 5px;
+
+  transition: background 0.5s, border 0.5s;
+}
+
+button:hover {
+  background: #7f0096;
+  border: 3px solid #6000b5;
+  cursor: pointer;
+
+  transition: background 0.5s, border 0.5s;
+}
